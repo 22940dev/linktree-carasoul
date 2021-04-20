@@ -1,0 +1,104 @@
+body {
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+    background: linear-gradient(0deg, rgba(47, 139, 209, 1) 0%, rgba(47, 139, 209, 0) 74%);
+}
+
+.container {
+    max-width: 720px;
+}
+
+.slider {
+    max-width: 450px !important;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.slider .dot {
+    bottom: -45px !important;
+}
+
+.slider .dot li {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
+
+.slider .dot .active {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: #DC00A3 !important;
+}
+
+
+/* LOGO */
+
+.container .logo-brand img {
+    width: 200px;
+    margin: 20px;
+}
+
+
+/* END LOGO */
+
+
+/* TITLE */
+
+.container .title-program h3 {
+    text-align: center;
+    color: white;
+}
+
+
+/* END TITLE */
+
+
+/* LIST MENU */
+
+.list-menu a {
+    font-size: 14px;
+}
+
+.list-menu .btn {
+    background-color: #060682;
+    color: white;
+}
+
+.list-menu .btn:hover {
+    background-color: #080357;
+}
+
+.list-menu .btn-wrap-text {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+}
+
+
+/* END LIST MENU */
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #343a40;
+}
+
+.footer p {
+    color: white;
+    font-size: 13px;
+}
+
+.footer .icon-socialmedia a {
+    color: rgb(23 24 142);
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: #dddddd;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
+/* END FOOTER */
